@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background: #0E1E25;
+  /* background: #0E3639;
+  color: #03C7E8; */
+}
+
+body {
+  /* background: #FAFCFF; */
+  background: #0E1E25;
+}
+
+.csColor{
+  color: #0E1E25;
+}
+
+.customBg {
+  background: #0e222a;
+}
+
+.shadow {
+  /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMTIsMCwjMDMwNzEyLCNmM2Y0ZjYsI2ZmZmZmZiwy */
+  box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
+    0px 2px 4px rgba(3, 7, 18, 0.03),
+    0px 4px 9px rgba(3, 7, 18, 0.05),
+    0px 8px 15px rgba(3, 7, 18, 0.06),
+    0px 12px 24px rgba(3, 7, 18, 0.08);
+
+
+}
+
+section {
+  padding: 80px 0px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.customLime,
+.headTitleLine {
+  color: #63CF50;
+}
+
+.customShadow {
+  /* https://smoothshadows.com/#djEsMiw1LDAuMDgsMjQsMzIsMCwjMDMwNzEyLCNmM2Y0ZjYsI2ZmZmZmZiwy */
+  box-shadow: 0px 1px 1px rgba(3, 7, 18, 0.08),
+    0px 5px 4px rgba(3, 7, 18, 0.06),
+    0px 12px 9px rgba(3, 7, 18, 0.05),
+    0px 20px 15px rgba(3, 7, 18, 0.03),
+    0px 32px 24px rgba(3, 7, 18, 0.02);
+
+}
+
+.customBoxBorder {
+  border: 1px solid #98EC65;
+}
+
+.customBgLime {
+  background: #63CF50;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  margin-top: 6px;
+}
+
+.buttonBgLime {
+  background: #98EC65;
+}
+
+
+.customlightLime {
+  color: #98EC65;
+}
+
+.authorAboutImage {
+  border-radius: 1.5rem;
+}
+
+.authorAboutImageNav {
+  border-radius: 100%;
+}
+
+.customBorder {
+  border: 1px solid #63CF50;
+  border-radius: 6px;
+}
+
+.textMain {
+  color: #21252C;
+}
+
+.textAlt {
+  color: #525760;
+}
+
+.progress-cus-success::-moz-progress-bar {
+  border-radius: var(--rounded-box, 1rem);
+  --tw-bg-opacity: 1;
+  background-color: var(--fallback-su, oklch(var(--su)/var(--tw-bg-opacity)));
+}
+
+.progress-cus-success:indeterminate {
+  --progress-color: #63CF50;
+}
+
+.progress-cus-success::-webkit-progress-value {
+  --tw-bg-opacity: 1;
+  background-color: #63CF50;
+}
+
+.authorAboutImage {
+  object-fit: cover;
+}
+
+.group:hover .group-hover\:text-customdark {
+  --tw-text-opacity: 1;
+  color: #0e222a;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #ffffff;
+  background: #63CF50;
+}
+
+::selection {
+  color: #ffffff;
+  background: #63CF50;
+}
+
+.conIn {
+  background: #0E1E25;
+  border: 1px solid #525760;
+}
+
+.singleConIn {
+  position: relative;
+  margin-bottom: 30px;
+
+}
+
+.conIn:focus{
+  border: 1px solid #98EC65;
+}
+
+.csW{
+  width: 22rem;
+}
+
+.conLab {
+  font-size: 18px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -17px;
+  margin-left: 15px;
+  background: #0e1e25;
+  padding: 5px;
+}
