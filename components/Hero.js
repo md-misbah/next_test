@@ -7,7 +7,7 @@ export default function Hero() {
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold">Hey There</h1>
                     <p className="mb-5">Versatile Developer Unleashing Innovation: A Showcase of My Multifaceted Skills and Expertise in Crafting Seamless Digital Experiences.</p>
-                    <button className="btn btn-primary"><a href="#about">Explore</a></button>
+                    <button className="btn btnCsLime"><a href="#about">Explore</a></button>
                 </div>
             </div>
         </div>
