@@ -22,6 +22,11 @@ body {
   background: #0e222a;
 }
 
+.btnCsLime{
+  background: #0e222a;
+  color: #fff;
+  }
+
 .shadow {
   /* https://smoothshadows.com/#djEsMSw1LDAuMDgsMjQsMTIsMCwjMDMwNzEyLCNmM2Y0ZjYsI2ZmZmZmZiwy */
   box-shadow: 0px 0px 1px rgba(3, 7, 18, 0.02),
