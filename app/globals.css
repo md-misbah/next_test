@@ -24,6 +24,9 @@ body {
 
 .btnCsLime{
   background: #98EC65;
+  color: #0E1E25;
+  outline: none;
+  border: none;
   }
 
 .shadow {
