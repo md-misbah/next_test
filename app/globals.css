@@ -44,7 +44,8 @@ section {
 
 .customLime,
 .headTitleLine {
-  color: #63CF50;
+  /* color: #63CF50; */
+  color: #98EC65;
 }
 
 .customShadow {
@@ -62,7 +63,8 @@ section {
 }
 
 .customBgLime {
-  background: #63CF50;
+  /*background: #63CF50;*/
+  background: #98EC65;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -87,7 +89,7 @@ section {
 }
 
 .customBorder {
-  border: 1px solid #63CF50;
+  border: 1px solid #98EC65;/*C*/
   border-radius: 6px;
 }
 
@@ -106,12 +108,12 @@ section {
 }
 
 .progress-cus-success:indeterminate {
-  --progress-color: #63CF50;
+  --progress-color: #98EC65;
 }
 
 .progress-cus-success::-webkit-progress-value {
   --tw-bg-opacity: 1;
-  background-color: #63CF50;
+  background-color: #98EC65;
 }
 
 .authorAboutImage {
@@ -126,12 +128,12 @@ section {
 ::-moz-selection {
   /* Code for Firefox */
   color: #ffffff;
-  background: #63CF50;
+  background: #98EC65;
 }
 
 ::selection {
   color: #ffffff;
-  background: #63CF50;
+  background: #98EC65;
 }
 
 .conIn {
