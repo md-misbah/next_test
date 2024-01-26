@@ -20,7 +20,7 @@ export default function Education() {
                             </div>
 
                             <div className="eduLDataWrapper grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-x-0 gap-y-2">
-                                <Edu_details exmTitle='HSC' passingYear='(2024-2025)' background='Background: ' backgroundName='Science' gpa='GPA: ' gpaGrade='(N/A)' institute='Institute: ' instituteName='BAF Shaheen College Dhaka' location='Location: ' locationName='Dhaka,
+                                <Edu_details exmTitle='HSC' passingYear='(2023-2024)' background='Background: ' backgroundName='Science' gpa='GPA: ' gpaGrade='(N/A)' institute='Institute: ' instituteName='BAF Shaheen College Dhaka' location='Location: ' locationName='Dhaka,
                             Bangladesh' />
                                 <Edu_details exmTitle='SSC' passingYear='(2022-2023)' background='Background: ' backgroundName='Science' gpa='GPA: ' gpaGrade='5.00' institute='Institute: ' instituteName='Monipur High School & College (Branch - 02)' location='Location: ' locationName='Dhaka,
                             Bangladesh' />
