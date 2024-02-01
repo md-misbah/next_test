@@ -31,7 +31,7 @@ export default function Projects() {
         <section id="projects" className="projects">
             <div className="sm:container mx-auto">
                 <div className="projectsWrapper w-11/12 m-auto">
-                    <SectionHead subTitle="My Projects" titleFirst="C" titleLast="heck out my previous projects" />
+                    <SectionHead subTitle="My Projects" titleFirst="C" titleLast="heck Out My Previous Projects" />
                     <div className="projectsWrap grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6 my-6">
                         <SingleProject projectImg={projectImg[0]} projectName={projectName[0]} projectDesc={projectDesc[0]} projectTag={projectTag[0]} projectLink={projectLink[0]} visit={visit[0]} />
                         <SingleProject projectImg={projectImg[3]} projectName={projectName[3]} projectDesc={projectDesc[1]} projectTag={projectTag[3]} projectLink={projectLink[3]} visit={visit[0]} />
