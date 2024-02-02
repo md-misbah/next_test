@@ -1,7 +1,7 @@
 import SingleCertificate from "./SingleCertificate";
-import MsML from '../images/ms_ML.png';
-import MsAzure from '../images/ms_azure.png';
-import MsAi from '../images/ms_ai.png';
+import MsML from '../images/ms_ML2.png';
+import MsAzure from '../images/ms_azure2.png';
+import MsAi from '../images/ms_ai2.png';
 import SectionHead from "./SectionHead";
 
 const certificateImage = [MsML, MsAzure, MsAi];
