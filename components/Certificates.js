@@ -16,7 +16,7 @@ export default function Certificates() {
                     <SectionHead subTitle="My Certificates" titleFirst="C" titleLast="ertificaions" />
                     <div className="certiWrap grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 my-6">
 
-                        <SingleCertificate certificateImg={certificateImage[2]} certificateFirstName="M" certificateLastName="icrosoft AI Skills Challenge" institute="Platform: " instituteName="Microsoft Learn (Microsoft)" cerDate="Obtained on: " cerDateD="2nd Feb, 2024" certificateDesc={certificateDescription[2]} certificateTag={certificateTag[1]} certificateTagtwo={certificateTag[2]} />
+                        <SingleCertificate certificateImg={certificateImage[2]} certificateFirstName="M" certificateLastName="icrosoft AI Skills Challenge" institute="Platform: " instituteName="Microsoft Learn (Microsoft)" cerDate="Obtained on: " cerDateD="31st Jan, 2024" certificateDesc={certificateDescription[2]} certificateTag={certificateTag[1]} certificateTagtwo={certificateTag[2]} />
     
                         <SingleCertificate certificateImg={certificateImage[1]} certificateFirstName="M" certificateLastName="icrosoft Azure AI Fundamentals: Cloud Skills Challenge" institute="Platform: " instituteName="Microsoft Learn (Microsoft)" cerDate="Obtained on: " cerDateD="26th Dec, 2023" certificateDesc={certificateDescription[0]} certificateTag={certificateTag[1]} certificateTagtwo={certificateTag[2]} />
                     
