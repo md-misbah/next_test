@@ -47,7 +47,7 @@ export default function Skills() {
 
                                         <SingleSkill iconSkill={<DiHtml5 />} nameSkill="HTML" levelSkill="Advanced" />
                                         <SingleSkill iconSkill={<DiCss3 />} nameSkill="CSS" levelSkill="Advanced" />
-                                        <SingleSkill iconSkill={<IoLogoJavascript />} nameSkill="JavaScript & TypeScript" levelSkill="Advanced" />
+                                        <SingleSkill iconSkill={<IoLogoJavascript />} nameSkill="JS, TS & ES(-v)" levelSkill="Advanced" />
                                         <SingleSkill iconSkill={<FaBootstrap />} nameSkill="BootStrap & JQuery" levelSkill="Advanced" />
 
                                     </div>
@@ -55,7 +55,7 @@ export default function Skills() {
 
                                         <SingleSkill iconSkill={<FaReact />} nameSkill="React JS" levelSkill="Advanced" />
                                         <SingleSkill iconSkill={<SiNextdotjs />} nameSkill="Next JS" levelSkill="Advanced" />
-                                        <SingleSkill iconSkill={<FaPhoenixFramework />} nameSkill="Front-End (Frameworks + Libraries)" levelSkill="Advanced" />
+                                        <SingleSkill iconSkill={<FaPhoenixFramework />} nameSkill="Frameworks & Libraries" levelSkill="Advanced" />
                                         <SingleSkill iconSkill={<FiMonitor />} nameSkill="Front-End Web Development" levelSkill="Advanced" />
 
                                     </div>
