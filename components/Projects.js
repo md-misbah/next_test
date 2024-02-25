@@ -12,13 +12,15 @@ import Mishbir from '../images/mishbir.png';
 import Gym from '../images/gym.png';
 import TastyTreat from '../images/tastyTreat.png';
 import Travel from '../images/travel.png';
+import BAFSDIT_21feb_poster from '../images/hm.png';
+import BAFSDIT_shab_e_barat_poster from '../images/hhmm.png';
 
-const projectImg = [Airbnb, Halloween, Adventure, TodoApp, Breakout, Gym, Mishbir, TastyTreat, Travel];
-const projectName = ["Airbnb V2.0", "Halloween", "Adventure", "To-Do App", "Break-Out", "Gymnasium", "Mishbir", "TastyTreat", "Travel Web"];
-const projectDesc = ["This is Airbnb Clone (Airbnb -V2.0). Developed with 'Next.JS' the 'React-Framework', 'Tailwind CSS' the CSS Library and the basic layout of 'The Airbnb Official Website'.", "It's a 'To-Do App'. A  JavaScript 'web-application' which uses your local storage(browser's cache memory) to store your To-Do's. This web-app is developed with 'HTML5, CSS3 & Vanilla JavaScript'.", "This JavaScript game has developed with 'HTML5, CSS3 & Vanilla JavaScript'. This is a javascript free online web-browser game.", "This one is a halloween shop demo website which is developed with 'HTML5, CSS3 & Vanilla JavaScript'. It's my personal project.", "It's a personal project of my coding just to increase my skills & efficiency. It's developed with 'HTML5, CSS3 & Vanilla JavaScript'.", "This is a client's project.", "It's a Gymnasium professional website for their gym's branding and marketing."];
-const projectTag = ["Next App", "React App", "Personal Project", "JavaScript (App)", "JavaScript (Game)", "Client's Project"];
+const projectImg = [Airbnb, Halloween, Adventure, TodoApp, Breakout, Gym, Mishbir, TastyTreat, Travel, BAFSDIT_21feb_poster, BAFSDIT_shab_e_barat_poster];
+const projectName = ["Airbnb V2.0", "Halloween", "Adventure", "To-Do App", "Break-Out", "Gymnasium", "Mishbir", "TastyTreat", "Travel Web", "International Mother Language Day Poster", "Shab-E-Barat Poster"];
+const projectDesc = ["This is Airbnb Clone (Airbnb -V2.0). Developed with 'Next.JS' the 'React-Framework', 'Tailwind CSS' the CSS Library and the basic layout of 'The Airbnb Official Website'.", "It's a 'To-Do App'. A  JavaScript 'web-application' which uses your local storage(browser's cache memory) to store your To-Do's. This web-app is developed with 'HTML5, CSS3 & Vanilla JavaScript'.", "This JavaScript game has developed with 'HTML5, CSS3 & Vanilla JavaScript'. This is a javascript free online web-browser game.", "This one is a halloween shop demo website which is developed with 'HTML5, CSS3 & Vanilla JavaScript'. It's my personal project.", "It's a personal project of my coding just to increase my skills & efficiency. It's developed with 'HTML5, CSS3 & Vanilla JavaScript'.", "This is a client's project.", "It's a Gymnasium professional website for their gym's branding and marketing.", "আমরা বি এ এফ শাহীন কলেজ ঢাকা ইনফরমেশন টেকনলজি ক্লাব, আজ ২১শে ফেব্রুয়ারি আন্তর্জাতিক মাতৃভাষা দিবসে লড়াই করা সকল বীরকে শ্রদ্ধায় স্মরণ করছি।", " Let us use this night to remember our loved ones who have passed away and pray for their forgiveness. Shab e Barat Mubarak."];
+const projectTag = ["Next App", "React App", "Personal Project", "JavaScript (App)", "JavaScript (Game)", "Client's Project", "Poster", "Poster Design", "Graphics Design"];
 const visit = ["Visit Site"]
-const projectLink = ["https://airbnb-clone-gamma-jet.vercel.app/", "https://md-misbah.github.io/halloween/", "https://md-misbah.github.io/adventure/", "https://md-misbah.github.io/To-Do-App/", "https://md-misbah.github.io/Breakout/", "https://md-misbah.github.io/gymnasium/", "https://md-misbah.github.io/mishbir/", "https://md-misbah.github.io/foodWeb/", "https://md-misbah.github.io/travelWeb/", "https://md-misbah.github.io/travelWeb/"];
+const projectLink = ["https://airbnb-clone-gamma-jet.vercel.app/", "https://md-misbah.github.io/halloween/", "https://md-misbah.github.io/adventure/", "https://md-misbah.github.io/To-Do-App/", "https://md-misbah.github.io/Breakout/", "https://md-misbah.github.io/gymnasium/", "https://md-misbah.github.io/mishbir/", "https://md-misbah.github.io/foodWeb/", "https://md-misbah.github.io/travelWeb/", "https://md-misbah.github.io/travelWeb/", "https://www.facebook.com/photo?fbid=886986710103913&set=a.496029759199612"];
 
 const gitUrl = ["https://github.com/md-misbah"];
 
@@ -45,7 +47,11 @@ export default function Projects() {
                         <SingleProject projectImg={projectImg[6]} projectName={projectName[6]} projectDesc={projectDesc[5]} projectTag={projectTag[5]} projectLink={projectLink[6]} visit={visit[0]} />
                         <SingleProject projectImg={projectImg[7]} projectName={projectName[7]} projectDesc={projectDesc[4]} projectTag={projectTag[2]} projectLink={projectLink[7]} visit={visit[0]} />
                         <SingleProject projectImg={projectImg[8]} projectName={projectName[8]} projectDesc={projectDesc[4]} projectTag={projectTag[2]} projectLink={projectLink[8]} visit={visit[0]} />
+
+                        <SingleProject projectImg={projectImg[9]} projectName={projectName[9]} projectDesc={projectDesc[7]} projectTag={projectTag[8]} projectLink={projectLink[9]} visit={visit[0]} />
+                        <SingleProject projectImg={projectImg[10]} projectName={projectName[10]} projectDesc={projectDesc[8]} projectTag={projectTag[8]} projectLink={projectLink[#]} visit={visit[0]} />
                     </div>
+    
 
                     <div className="projectGitButton mt-12 w-fit mx-auto ">
                         <button className="group relative h-12 w-48 overflow-hidden rounded-lg customBg text-lg shadow">
